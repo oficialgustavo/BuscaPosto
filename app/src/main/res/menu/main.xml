@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Cadastrar Posto"
+        android:id="@+id/cadastrar_posto"
+        android:orderInCategory="100" />
+    <item
+        android:title="Listar Postos"
+        android:id="@+id/listar_postos"
+        android:orderInCategory="101"/>
+    <item
+        android:title="Meu perfil"
+        android:id="@+id/meu_perfil"
+        android:orderInCategory="102"/>
+    <item
+        android:title="Sair"
+        android:id="@+id/sair"
+        android:orderInCategory="103"/>
+
+</menu>

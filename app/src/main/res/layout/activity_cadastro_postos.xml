@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="16dp"
+    tools:context="com.example.android.buscaposto.Activity.CadastroPostos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtCadNomePosto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome do posto"
+                android:inputType="textCapCharacters" />
+
+            <EditText
+                android:id="@+id/edtCadPrecoGasComum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gasolina Comum"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/edtCadPrecoGasAditivada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gasolina Aditivada"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/edtCadPrecoAlcool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alcool"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/edtCadPrecoDiesel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Diesel"
+                android:inputType="numberDecimal" />
+            <EditText
+                android:id="@+id/edtCadCidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cidade"
+                android:inputType="text" />
+                <EditText
+                    android:id="@+id/edtCadEndereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Endereço"
+                    android:inputType="text"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/corPrincipal"
+        android:text="Voltar" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/corPrincipal"
+        android:text="Cadastrar Posto" />
+</RelativeLayout>

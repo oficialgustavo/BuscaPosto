@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "297200664090",
+    "firebase_url": "https://busca-posto.firebaseio.com",
+    "project_id": "busca-posto",
+    "storage_bucket": "busca-posto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297200664090:android:a8a77fc302b5ccc9",
+        "android_client_info": {
+          "package_name": "com.example.android.buscaposto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297200664090-rmlu9dt0uj266ua2s5reitrbm9pp7qtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2pJwA7d71fH_3EC7SYATKekDJyLxZmBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

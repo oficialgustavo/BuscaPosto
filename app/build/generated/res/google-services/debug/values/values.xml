@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">297200664090-rmlu9dt0uj266ua2s5reitrbm9pp7qtl.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://busca-posto.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">297200664090</string>
+    <string name="google_api_key" translatable="false">AIzaSyA2pJwA7d71fH_3EC7SYATKekDJyLxZmBY</string>
+    <string name="google_app_id" translatable="false">1:297200664090:android:a8a77fc302b5ccc9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA2pJwA7d71fH_3EC7SYATKekDJyLxZmBY</string>
+    <string name="google_storage_bucket" translatable="false">busca-posto.appspot.com</string>
+</resources>
